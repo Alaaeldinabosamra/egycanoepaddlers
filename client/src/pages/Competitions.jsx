@@ -1,7 +1,11 @@
-
+import BannerSlider from "../components/bannerSlider/BannerSlider"
 
 export default function Competitions() {
   return (
-    <div>Competitions</div>
+    <>
+      <div className="w-full">
+        <BannerSlider />
+      </div>
+    </>
   )
 }

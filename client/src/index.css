@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primaryRed: #C30010;
+    --primaryBeige: #F5F5DC;
+    --sandcolor: #f4a460;
+    --primaryBlack: #000;
+    --blue: rgb(93,188,252);
+    --purpleblue: #646cffaa;
+    --skyblue: #61dafbaa;
+    --classicRed: #FF0000;
+    --fireEngineRed: #CE2029;
+    --cherryRed: #FF004F;
+    --roseRed: #C21E56;
+    --brickRed: #C62D42;
+    --fluffyRed: #FF2c2c;
+    --title: rgb(244,244,245);
+    --titledark: #111111;
+    --subtitledark: #636363;
+    --subtitle: rgb(161,161,170);
+    --bluewave: rgb(93,188,252);
+    --bgblack: #382e2e;
+  }
+
+
+html,body{
+    background-color: #FFF0DB;
+}
+
+
+.border{
+  border: 1px solid cyan;
+}

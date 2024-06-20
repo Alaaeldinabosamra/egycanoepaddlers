@@ -1,7 +1,10 @@
-
+import CardSlider from '../components/cardSlider/CardSlider'
 
 export default function Athletes() {
   return (
-    <div>Athletes</div>
+    <div>
+      <CardSlider />
+      <h1>abosamra</h1>
+    </div>
   )
 }
